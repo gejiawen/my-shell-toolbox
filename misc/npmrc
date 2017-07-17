@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 touch .npmrc
-echo "registry=https://registry.npm.taobao.org" >> .npmrc
-echo "disturl=http://npm.taobao.org/mirrors/node" >> .npmrc
+# echo "registry=https://registry.npm.taobao.org" >> .npmrc
+echo "registry=http://registry.gejiawen.com" >> .npmrc
+# echo "disturl=http://npm.taobao.org/mirrors/node" >> .npmrc
 echo "loglevel=http" >> .npmrc

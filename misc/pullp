@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+path=.
+
+function listDir() {
+    for el in `ls $1`; do
+        dir_or_file=${1}/${el}
+
+        if [[ -d $dir_or_file ]]; then
+            # listDir $dir_or_file
+            echo "cd in ${dir_or_file}, and exec git pull -p"
+            cd $dir_or_file
+            git pull -p
+            cd ..
+            echo
+        else
+            echo "${dir_or_file} is a file. skip it."
+        fi
+    done
+}
+
+listDir $path
