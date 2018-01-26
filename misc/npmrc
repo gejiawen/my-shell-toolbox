@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+#-----------------
+# Usage，
+# 1，在工程目录下自动生成一个 .npmrc 文件
+# 2，此 .npmrc 文件带有默认的 registry 和 loglevel 设置
+#-----------------
+
 touch .npmrc
 # echo "registry=https://registry.npm.taobao.org" >> .npmrc
 echo "registry=http://registry.gejiawen.com" >> .npmrc

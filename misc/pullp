@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+#--------------
+# Usage:
+# 1, cd到一个文件夹，此文件夹拥有众多git仓库
+# 2，目前不支持git仓库的目录嵌套
+# 3，执行 pullp，将会自动对此文件夹的所有git仓库执行 git pull -p
+#--------------
+
 path=.
 
 function listDir() {

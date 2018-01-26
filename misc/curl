@@ -1,3 +1,10 @@
+#!/usr/bin/env bash
+
+#-----------------
+# Usage,
+# 1，自动循环请求 localhost:3000
+#-----------------
+
 while [ true ]
 do
     str=`date +%Y%m%d-%H-%M-%S-%s`
