@@ -8,7 +8,7 @@
 #   ./work.sh [action]
 #
 # @params
-#   action - action表示工作脚本任务，目前有 ‘build’， ‘push’， ‘run’，‘clean’
+#   action - action表示工作脚本任务，目前有 ‘build’， ‘push’， ‘run’，‘clean’，‘demo’
 #
 # @author
 #   gejiawen<806717031@qq.com>
